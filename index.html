@@ -11,6 +11,8 @@
     <!-- link with css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/custom-style.css">
 </head>
 
 <body>
@@ -46,7 +48,8 @@
 
         <!-- slider -->
         <div class="container">
-            <div id="carouselExampleControls" class="carousel slide  bg-info rounded p-5 " data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide  custom-backgraound rounded p-5 "
+                data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
                         <div class="row">
@@ -57,7 +60,7 @@
                                     of funky world.
                                 </p>
                                 <h1>$420</h1>
-                                <div class="btn btn-warning">Buy NOW</div>
+                                <div class="btn button-buy-now">Buy NOW</div>
                             </div>
                             <div class="col-lg-5 align-self-center">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -75,7 +78,7 @@
                                     tv.
                                 </p>
                                 <h1>$1200</h1>
-                                <div class="btn btn-warning">Buy NOW</div>
+                                <div class="btn button-buy-now">Buy NOW</div>
                             </div>
                             <div class="col-lg-5 align-self-center">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -91,7 +94,7 @@
                                     fake sports.
                                 </p>
                                 <h1>$660</h1>
-                                <div class="btn btn-warning">Buy NOW</div>
+                                <div class="btn button-buy-now">Buy NOW</div>
                             </div>
                             <div class="col-lg-5 align-self-center">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -118,7 +121,7 @@
 
         <!-- catagories -->
         <section>
-            <div class="container">
+            <div class="container catagories">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div
@@ -129,7 +132,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div
-                            class=" mt-3 p-3 border rounded bg-info bg-gradient d-flex align-items-center justify-content-evenly">
+                            class=" mt-3 p-3 border rounded bg-success bg-gradient d-flex align-items-center justify-content-evenly">
                             <h1>Shoes</h1>
                             <img src="images/categories/shoes.png" alt="">
                         </div>
@@ -159,7 +162,7 @@
                         <h5 class="card-title">Supply 350</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
                 <div class="card shadow p-3 mb-5 bg-body rounded  col-lg-4 " style="width: 22rem;">
@@ -168,7 +171,7 @@
                         <h5 class="card-title">Nike 360</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
                 <div class="card shadow p-3 mb-5 bg-body rounded  col-lg-4 " style="width: 22rem;">
@@ -177,7 +180,7 @@
                         <h5 class="card-title">Red Airmax</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -198,7 +201,7 @@
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
                         <h6>$120</h6>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
                 <div class="card shadow p-3 mb-5 bg-body rounded  col-lg-4 " style="width: 22rem;">
@@ -208,7 +211,7 @@
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
                         <h6>$220</h6>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
                 <div class="card shadow p-3 mb-5 bg-body rounded  col-lg-4 " style="width: 22rem;">
@@ -218,7 +221,7 @@
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional.</p>
                         <h6>$320</h6>
-                        <a href="#" class="btn btn-danger">Buy Now</a>
+                        <a href="#" class="btn button-buy-now">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -227,14 +230,15 @@
 
 
 
-        <section class="container d-flex justify-content-center bg-info rounded align-items-center mb-3" id="Subscribe">
+        <section class="container d-flex justify-content-center custom-backgraound rounded align-items-center mb-3"
+            id="Subscribe">
             <div class=" p-3 ">
                 <label for="exampleFormControlInput1" class="form-label">
                     <h2>LET'S STAY IN TOUCH</h2>
                     <h6>Get updates on sales, specials and more</h6>
                 </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                <a href="#" class="btn btn-danger">Submit </a>
+                <a href="#" class="btn button-buy-now">Submit </a>
             </div>
         </section>
 

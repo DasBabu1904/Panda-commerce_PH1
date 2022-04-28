@@ -1,0 +1,12 @@
+.custom-backgraound {
+    background-color: rgba(248, 210, 178, 0.49);
+}
+
+.catagories img {
+    width: 100px;
+}
+
+.button-buy-now {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white
+}
